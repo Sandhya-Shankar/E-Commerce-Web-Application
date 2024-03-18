@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head style = "text-align: center;">MEDICAL FORM</head>
+    <p>
+        PERSONAL INFORMATION:
+        <form action = "/action_page.php">
+            <label for= "fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" maxlength="50"><br><br>
+            <label for= "lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" maxlength="50"><br><br>
+            <label for= "nationality">Nationality:</label><br>
+            <select id="nationality" name="nationality">
+            <option value="american">american</option>
+            <option value="ausi">Australian</option>
+            <option value="indian">Indian</option>
+            <option value="Japanese">Japanese</option>
+            </select><br><br>
+            <label for= "gender">Gender:</label><br>
+            <input type="checkbox" id="g1" name="g1" value="male">
+            <label for= "g1">MALE</label><br>
+            <input type="checkbox" id="g2" name="g2" value="female">
+            <label for= "g2">Female</label><br>
+            <label for= "Address">Address:</label><br>
+            <textarea name="Address" rows="10" cols="30" maxlength="300"></textarea>
+            <input type="submit"><hr>
+        </form>
+        MEDICAL HISTORY:
+        <form action = "/action_page.php">
+        <input type="checkbox" id="SP" name="SP" value="SP">
+        <label for= "SP">SMALL POX</label><br>
+        <input type="checkbox" id="MU" name="MU" value="MU">
+        <label for= "MU">MUMPS</label><br>
+        <input type="checkbox" id="DS" name="DS" value="DS">
+        <label for= "DS">DIZZINESS</label><br>
+        <input type="checkbox" id="SN" name="SN" value="SN">
+        <label for= "SN">SNEEZING</label><br><br>
+        <input type="submit"><hr>
+        CURRENT MEDICATION:<br>
+        Are you currently taking any medication:<br>
+        <input type="checkbox" id="y" name="y" value="yes">
+        <label for= "y">YES</label>
+        <input type="checkbox" id="n" name="n" value="no">
+        <label for= "n">NO</label><br>
+        </form>
+
+    </p>
+</html>
